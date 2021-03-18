@@ -90,7 +90,7 @@ $sftp->renameFileOrFolder($oldname, $newname);
 $sftp->createSymlink($target, $link); 
 ```
 
-##### Execute custom command
+##### Execute custom command kk
 ```php
 $sftp->ssh2_exec($cmd); 
 ```
